@@ -14,7 +14,6 @@ services:
             - ./etc/nginx/sites-enabled/:/etc/nginx/conf.d/
         depends_on:
             - php-fpm
-            - mysql
     php-fpm:
         container_name: php-fpm
         build:
