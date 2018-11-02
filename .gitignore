@@ -1,0 +1,18 @@
+# ----------------------------------------
+# Ignora arquivos gerados pelo sistema
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+~*
+
+# ----------------------------------------
+# Arquivos gerados pelo container nginx
+# ----------------------------------------
+etc/nginx/logs/*
+!etc/nginx/logs/.gitkeep
+
+# ----------------------------------------
+# Arquivos fonte
+# ----------------------------------------
+src/public/*
+!src/public/index.php
